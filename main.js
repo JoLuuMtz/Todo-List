@@ -1,4 +1,4 @@
-import './style.css'
+import '/style.css'
 import {ToDo} from './src/js/todo.class.js'
 import './src/img/icon.png'
 import {TodoList} from './src/js/todo-list.class.js'
