@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Todo</title>
+	<link rel="icon" type="image/svg+xml" href="/assets/icon-DZrllxct.png" />
+  <script type="module" crossorigin src="/assets/index-3HDSSz9O.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-ayyEcYGH.css">
+</head>
+
+<body>
+	<section class="todoapp">
+		<header class="header">
+			<h1 class="titulo">Todo List</h1>
+			<input class="new-todo" placeholder="What do you need to do?" autofocus>
+		</header>
+		<!-- This section should be hidden by default and shown when there are todos -->
+		<section class="main">
+			<input id="toggle-all" class="toggle-all" type="checkbox">
+			<label for="toggle-all">Mark all as complete</label>
+			<ul class="todo-list">
+				<!--  -->
+				<!-- <li>
+						<div class="view">
+							<input class="toggle" type="checkbox">
+							<label>Comprar un unicornio</label>
+							<button class="destroy"></button>
+						</div>
+						<input class="edit" value="Rule the web">
+					</li> -->
+			</ul>
+		</section>
+		<!-- This footer should hidden by default and shown when there are todos -->
+		<footer class="footer">
+			<!-- This should be `0 items left` by default -->
+			<span class="todo-count"><small class="contador">0</small> pendiente(s)</span>
+			<!-- Remove this if you don't implement routing -->
+			<ul class="filters">
+				<li>
+					<a class="selected filtro" href="#/">All</a>
+				</li>
+				<li>
+					<a class="filtro" href="#/active">Due</a>
+				</li>
+				<li>
+					<a class="filtro" href="#/completed">Completed</a>
+				</li>
+			</ul>
+			<!-- Hidden if no completed items are left ↓ -->
+			<button class="clear-completed">Delete Completed</button>
+		</footer>
+	</section>
+	<footer class="info">
+		<p>Created by <a href="https://d12n.me/">JoLuDev</a></p>
+
+		<a target="_blank" href="https://github.com/JoLuuMtz" rel="noopener"><img title="GitHub"
+			src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+	</footer>
+</body>
+
+</html>
